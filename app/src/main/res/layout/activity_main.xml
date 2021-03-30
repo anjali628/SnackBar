@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Action Call Snackbar"
+        android:id="@+id/actionCallSnackbar"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Default Snackbar"
+        android:id="@+id/defaultSnackbar"
+        android:layout_above="@id/actionCallSnackbar"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Custom View Snackbar"
+        android:id="@+id/customViewSnackbar"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/actionCallSnackbar"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
